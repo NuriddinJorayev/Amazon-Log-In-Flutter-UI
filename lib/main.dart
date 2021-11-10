@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: LogIn(),
+      home: Home(),
       routes: {
         Home().id : (context) => Home(),
         Splash().id : (context) => Splash(),
